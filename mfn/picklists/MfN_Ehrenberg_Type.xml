@@ -1,0 +1,10 @@
+<list>
+  <picklist name="MfN_Ehrenberg_Type" type="0" tablename="none" readonly="true" sizelimit="0" issystem="false" sort="1" timestampCreated="2013-06-03 15:52:15.0" timestampModified="2013-06-03 15:53:20.0" version="2">
+    <items>
+      <picklistitem title="Original" value="Original" ordinal="0" timestampCreated="2013-06-03 15:52:15.0" timestampModified="2013-06-03 15:52:15.0" version="0"/>
+      <picklistitem title="Unknown" value="Unknown" ordinal="3" timestampCreated="2013-06-03 15:53:20.0" timestampModified="2013-06-03 15:53:20.0" version="0"/>
+      <picklistitem title="Mixed" value="Mixed" ordinal="2" timestampCreated="2013-06-03 15:52:53.0" timestampModified="2013-06-03 15:52:53.0" version="0"/>
+      <picklistitem title="Pasted" value="Pasted" ordinal="1" timestampCreated="2013-06-03 15:52:22.0" timestampModified="2013-06-03 15:52:22.0" version="0"/>
+    </items>
+  </picklist>
+</list>

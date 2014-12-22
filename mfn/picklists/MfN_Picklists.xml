@@ -1,0 +1,33 @@
+<list>
+  <picklist name="MfN_Availability" type="0" tablename="none" readonly="true" sizelimit="32" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2013-06-03 17:07:00.0" version="1">
+    <items>
+      <picklistitem title="destroyed" value="destroyed" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="missing" value="missing" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2012-09-10 12:09:48.0" version="0"/>
+      <picklistitem title="available" value="available" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="exchange" value="exchange" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_Publication" type="0" readonly="true" sizelimit="7" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2012-09-10 14:52:45.0" version="1">
+    <items>
+      <picklistitem title="full" value="0" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="not any" value="1" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="without collecting event" value="2" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="without collector(s)" value="3" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_SpecimenDescription" type="0" readonly="true" sizelimit="7" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2012-09-10 14:52:45.0" version="1">
+    <items>
+      <picklistitem title="Preserved specimen" value="Preserved specimen" ordinal="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="Fossile specimen" value="Fossile specimen" ordinal="2" timestampCreated="2012-09-10 12:06:38.0" timestampModified="2012-09-10 12:06:38.0" version="0"/>
+      <picklistitem title="Living specimen" value="Living specimen" ordinal="3" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="Other specimen" value="Other specimen" ordinal="4" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="Sound" value="Sound" ordinal="5" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="Photograph" value="Photograph" ordinal="6" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="Drawing" value="Drawing" ordinal="7" timestampCreated="2012-09-10 12:06:38.0" timestampModified="2012-09-10 12:06:38.0" version="0"/>
+      <picklistitem title="Human observation" value="Human observation" ordinal="8" timestampCreated="2012-09-10 12:06:38.0" timestampModified="2012-09-10 12:06:38.0" version="0"/>
+      <picklistitem title="Machine observation" value="Machine observation" ordinal="9" timestampCreated="2012-09-10 12:06:38.0" timestampModified="2012-09-10 12:06:38.0" version="0"/>
+      <picklistitem title="Sample" value="Sample" ordinal="10" timestampCreated="2013-06-03 17:07:00.0" timestampModified="2013-06-03 17:07:00.0" version="0"/>
+      <picklistitem title="Sample package" value="Sample package" ordinal="11" timestampCreated="2013-06-03 17:07:00.0" timestampModified="2013-06-03 17:07:00.0" version="0"/>
+    </items>
+  </picklist>
+</list>
