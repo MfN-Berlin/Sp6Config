@@ -1036,14 +1036,14 @@
     <field column="Box 8" name="box8" type="java.lang.String" length="64"/>
     <field column="Rack 8" name="rack8" type="java.lang.String" length="64"/>
     <field column="Vial 8" name="vial8" type="java.lang.String" length="64"/>
-  </table>
 
-  <!-- mfn adaption begin -->
+	<!-- mfn adaption begin -->
     <field column="Prep Attr 8 Text8" name="prepAttr8Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 8 Text9" name="prepAttr8Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
-  
-  <!-- table classname="edu.ku.brc.specify.datamodel.PreparationAttribute" table="preparationattribute" tableid="91" lazy="true" query="false">
+  </table>
+ 
+  <table classname="edu.ku.brc.specify.datamodel.PreparationAttribute" table="preparationattribute" tableid="91" lazy="true" query="false">
     <field column="Remarks (Preparation Attribute)" name="preparationAttributeRemarks" type="java.lang.String" length="4096"/>
     <field column="Number 1 (Preparation Attribute)" name="preparationAttributeNumber1" type="java.lang.Float" length="24"/>
     <field column="Number 2 (Preparation Attribute)" name="preparationAttributeNumber2" type="java.lang.Float" length="24"/>
@@ -1084,7 +1084,7 @@
     <field column="YesNo 2 (Preparation Attribute)" name="preparationAttributeYesNo2" type="java.lang.Short" length="5"/>
     <field column="YesNo 3 (Preparation Attribute)" name="preparationAttributeYesNo3" type="java.lang.Short" length="5"/>
     <field column="YesNo 4 (Preparation Attribute)" name="preparationAttributeYesNo4" type="java.lang.Short" length="5"/>
-  </table-->
+  </table>
   
   <table classname="edu.ku.brc.specify.datamodel.ReferenceWork" table="referencework" tableid="69" lazy="true" >
     <field column="Reference Work Type" name="referenceWorkType" type="byte" length="24"/>

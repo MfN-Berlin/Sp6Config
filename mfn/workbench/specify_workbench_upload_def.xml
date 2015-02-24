@@ -627,6 +627,10 @@
     <field table="Preparation" name="box1" onetomanysequence="0" treename="storage" maptofield="name" rankid="400"/>
     <field table="Preparation" name="rack1" onetomanysequence="0" treename="storage" maptofield="name" rankid="450"/>
     <field table="Preparation" name="vial1" onetomanysequence="0" treename="storage" maptofield="name" rankid="500"/>
+    <!-- mfn adaption begin -->
+	<field table="Preparation" name="prepAttr1Text8" actualname="text8" onetomanysequence="0" relationshipname="collectionObject"/>
+    <field table="Preparation" name="prepAttr1Text9" actualname="text9" onetomanysequence="0" relationshipname="collectionObject"/>
+    <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate2" actualname="preparedDate" onetomanysequence="1" relationshipname="collectionObject"/>
     <field table="Preparation" name="preparedFirstNameBy2" onetomanysequence="1" relationshipname="preparedByAgent" relatedfieldname="firstName"/>
