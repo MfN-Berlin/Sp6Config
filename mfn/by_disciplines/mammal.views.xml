@@ -126,6 +126,17 @@
         </view>
         <!-- mfn adaption end -->
 
+        <!-- mfn adaption begin -->
+        <view name="PreparationAttributes"
+            class="edu.ku.brc.specify.datamodel.PreparationAttribute"
+            >
+            <desc><![CDATA[Subform within the Collection Object form.]]></desc>
+            <altviews>
+                <altview name="PreparationAttributes View" viewdef="PreparationAttributes" mode="view" />
+                <altview name="PreparationAttributes Edit" viewdef="PreparationAttributes" mode="edit" default="true"/>
+            </altviews>
+        </view>
+        <!-- mfn adaption end -->
 	</views>
     
     <viewdefs>
@@ -179,7 +190,7 @@
                 <!-- mfn adaption begin -->
                 <row>
                     <cell type="label" labelfor="1"/>
-                    <cell type="field" id="1" name="catalogNumber" uitype="formattedtext"/>
+                    <cell type="field" id="1" name="catalogNumber" uitype="formattedtext" default="auto" />
                     <cell type="label" labelfor="mfn_guid"/>
                     <cell type="field" id="mfn_guid" name="reservedText" readonly="true" uitype="text"/>
                     <cell type="label" labelfor="14"/>
@@ -210,7 +221,7 @@
                     <cell type="field" id="mfn_remarks" name="remarks" uitype="textareabrief" rows="2" colspan="9" cols="50"/>
                 </row>
                 <row>
-                    <cell type="subview" viewname="OtherIdentifiers" id="mfn_otheridents" name="otherIdentifiers" colspan="12" rows="4" initialize="collapse=true;noscrollbars=true;bgcolor=210,206,198;border=line;bordercolor=130,130,130;"/>
+                    <cell type="subview" viewname="OtherIdentifiers" id="mfn_otheridents" name="otherIdentifiers" colspan="12" rows="4" defaulttype="table" initialize="collapse=false;noscrollbars=true;bgcolor=210,206,198;border=line;bordercolor=130,130,130;"/>
                 </row>
                 <row>
                     <cell type="subview" viewname="Determination" id="6" name="determinations" defaulttype="form" colspan="12" rows="5" initialize="bgcolor=213,205,205;border=line;bordercolor=252,103,78;"/>
@@ -948,7 +959,7 @@
                     <cell type="label" labelfor="1"/>
                     <cell type="field" id="1" uitype="plugin" name="this" initialize="name=PartialDateUI;df=preparedDate;tp=preparedDatePrecision" uifieldformatter="Date"/>
                     <cell type="label" label="  "/>
-                    <cell type="field" id="isOnLoan" name="isOnLoan" uitype="checkbox" label="ISONLOAN" readonly="true"/>
+                    <cell type="field" id="isOnLoan" name="isOnLoan" uitype="checkbox" label="Is on loan" readonly="true"/>
                 </row>
                 <row>
                     <cell type="label" labelfor="3"/>
@@ -964,12 +975,10 @@
                     <cell type="label" labelfor="mfn_remarks"/>
                     <cell type="field" id="mfn_remarks" name="remarks" uitype="textareabrief" rows="2" colspan="12"/>
                 </row>
-				<!-- 
                 <row>
-                    <cell type="subview" id="18" viewname="PreparationAttributes" name="preparationAttribute" colspan="14"/>
+                    <cell type="subview" id="mfn_prepattr" viewname="PreparationAttributes" name="preparationAttribute" rows="2" colspan="14" initialize="noscrollbars=true;" />
                 </row>
-				-->
- 		        <!-- mfn adaption end -->
+		        <!-- mfn adaption end -->
                 <!--<row>
                     <cell type="label" labelfor="desc"/>
                     <cell type="field" id="desc" name="description" uitype="text"/>
@@ -1018,7 +1027,29 @@
                 </row>-->
             </rows>
         </viewdef>
-        
+
+        <!-- mfn adaption begin -->
+        <viewdef
+            type="form"
+            name="PreparationAttributes"
+            class="edu.ku.brc.specify.datamodel.PreparationAttribute"
+            gettable="edu.ku.brc.af.ui.forms.DataGetterForObj"
+            settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+            <desc><![CDATA[Form For OtherIdentifier]]></desc>
+            
+            <columnDef>98px,2px,133px,5px,174px,2px,127px,5px,87px,2px,194px</columnDef>
+            <rowDef auto="true" sep="2px" cell="p"/>
+            <rows>
+                <row>
+                    <cell type="label" labelfor="mfn_availability"/>
+                    <cell type="field" id="mfn_availability" name="text11" uitype="combobox" />
+                    <cell type="label" labelfor="mfn_availabilitydate"/>
+                    <cell type="field" id="mfn_availabilitydate" name="attrDate" uitype="formattedtext" uifieldformatter="Date" />
+                </row>
+            </rows>
+        </viewdef>
+        <!-- mfn adaption end -->
+       
         <viewdef
             type="formtable"
             name="AccessionItems Table"
