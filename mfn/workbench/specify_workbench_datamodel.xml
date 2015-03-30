@@ -800,11 +800,11 @@
     <field column="Box 1" name="box1" type="java.lang.String" length="64"/>
     <field column="Rack 1" name="rack1" type="java.lang.String" length="64"/>
     <field column="Vial 1" name="vial1" type="java.lang.String" length="64"/>
-    
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 1 Text8" name="prepAttr1Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 1 Text9" name="prepAttr1Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
+
     <!--
     <field column="Prep Attr 1 Text1" name="prepAttr1Text1" type="java.lang.String" length="300"/>
     <field column="Prep Attr 1 Text2" name="prepAttr1Text2" type="java.lang.String" length="300"/>
@@ -836,11 +836,11 @@
     <field column="Box 2" name="box2" type="java.lang.String" length="64"/>
     <field column="Rack 2" name="rack2" type="java.lang.String" length="64"/>
     <field column="Vial 2" name="vial2" type="java.lang.String" length="64"/>
-    
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 2 Text8" name="prepAttr2Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 2 Text9" name="prepAttr2Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
+
     <!--
     <field column="Prep Attr 2 Text1" name="prepAttr2Text1" type="java.lang.String" length="300"/>
     <field column="Prep Attr 2 Text2" name="prepAttr2Text2" type="java.lang.String" length="300"/>
@@ -872,12 +872,11 @@
     <field column="Box 3" name="box3" type="java.lang.String" length="64"/>
     <field column="Rack 3" name="rack3" type="java.lang.String" length="64"/>
     <field column="Vial 3" name="vial3" type="java.lang.String" length="64"/>
-    
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 3 Text8" name="prepAttr3Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 3 Text9" name="prepAttr3Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
-
+    
     <field column="Prepared Date 4" name="preparedDate4" type="calendar_date"/>
     <field column="Prepared First Name By 4" name="preparedFirstNameBy4" type="java.lang.String" length="50"/>
     <field column="Prepared Last Name By 4" name="preparedLastNameBy4" type="java.lang.String" length="120"/>
@@ -904,7 +903,6 @@
     <field column="Box 4" name="box4" type="java.lang.String" length="64"/>
     <field column="Rack 4" name="rack4" type="java.lang.String" length="64"/>
     <field column="Vial 4" name="vial4" type="java.lang.String" length="64"/>
-
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 4 Text8" name="prepAttr4Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 4 Text9" name="prepAttr4Text9" type="java.lang.String" length="50"/>
@@ -936,12 +934,11 @@
     <field column="Box 5" name="box5" type="java.lang.String" length="64"/>
     <field column="Rack 5" name="rack5" type="java.lang.String" length="64"/>
     <field column="Vial 5" name="vial5" type="java.lang.String" length="64"/>
-    
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 5 Text8" name="prepAttr5Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 5 Text9" name="prepAttr5Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
-
+    
     <field column="Prepared Date 6" name="preparedDate6" type="calendar_date"/>
     <field column="Prepared First Name By 6" name="preparedFirstNameBy6" type="java.lang.String" length="50"/>
     <field column="Prepared Last Name By 6" name="preparedLastNameBy6" type="java.lang.String" length="120"/>
@@ -968,12 +965,11 @@
     <field column="Box 6" name="box6" type="java.lang.String" length="64"/>
     <field column="Rack 6" name="rack6" type="java.lang.String" length="64"/>
     <field column="Vial 6" name="vial6" type="java.lang.String" length="64"/>
-    
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 6 Text8" name="prepAttr6Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 6 Text9" name="prepAttr6Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
-
+    
     <field column="Prepared Date 7" name="preparedDate7" type="calendar_date"/>
     <field column="Prepared First Name By 7" name="preparedFirstNameBy7" type="java.lang.String" length="50"/>
     <field column="Prepared Last Name By 7" name="preparedLastNameBy7" type="java.lang.String" length="120"/>
@@ -1000,12 +996,11 @@
     <field column="Box 7" name="box7" type="java.lang.String" length="64"/>
     <field column="Rack 7" name="rack7" type="java.lang.String" length="64"/>
     <field column="Vial 7" name="vial7" type="java.lang.String" length="64"/>
-    
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 7 Text8" name="prepAttr7Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 7 Text9" name="prepAttr7Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
-
+    
     <field column="Prepared Date 8" name="preparedDate8" type="calendar_date"/>
     <field column="Prepared First Name By 8" name="preparedFirstNameBy8" type="java.lang.String" length="50"/>
     <field column="Prepared Last Name By 8" name="preparedLastNameBy8" type="java.lang.String" length="120"/>
@@ -1032,13 +1027,12 @@
     <field column="Box 8" name="box8" type="java.lang.String" length="64"/>
     <field column="Rack 8" name="rack8" type="java.lang.String" length="64"/>
     <field column="Vial 8" name="vial8" type="java.lang.String" length="64"/>
-
 	<!-- mfn adaption begin -->
     <field column="Prep Attr 8 Text8" name="prepAttr8Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr 8 Text9" name="prepAttr8Text9" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
   </table>
- 
+  
   <!-- table classname="edu.ku.brc.specify.datamodel.PreparationAttribute" table="preparationattribute" tableid="91" lazy="true" query="false">
     <field column="Remarks (Preparation Attribute)" name="preparationAttributeRemarks" type="java.lang.String" length="4096"/>
     <field column="Number 1 (Preparation Attribute)" name="preparationAttributeNumber1" type="java.lang.Float" length="24"/>

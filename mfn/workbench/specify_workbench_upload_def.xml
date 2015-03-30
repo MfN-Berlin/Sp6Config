@@ -724,7 +724,7 @@
     <field table="Preparation" name="prepAttr4Text8" onetomanysequence="0" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr4Text9" onetomanysequence="0" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
     <!-- mfn adaption end -->
-    
+
     <field table="Preparation" name="preparedDate5" actualname="preparedDate" onetomanysequence="4" relationshipname="collectionObject"/>
     <field table="Preparation" name="preparedFirstNameBy5" onetomanysequence="4" relationshipname="preparedByAgent" relatedfieldname="firstName"/>
     <field table="Preparation" name="preparedLastNameBy5" onetomanysequence="4" relationshipname="preparedByAgent" relatedfieldname="lastName"/>
@@ -851,39 +851,39 @@
 
 	<!-- preparationattributes -->
     <field table="PreparationAttribute" name="preparationAttributeRemarks" actualname="Remarks" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber1" actualname="Number1" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber2" actualname="Number2" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber3" actualname="Number3" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber4" actualname="Number4" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber5" actualname="Number5" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber6" actualname="Number6" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber7" actualname="Number7" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber8" actualname="Number8" />
-    <field table="PreparationAttribute" name="preparationAttributeNumber9" actualname="Number9" />
-    <field table="PreparationAttribute" name="preparationAttributeText1" actualname="Text1" />
-    <field table="PreparationAttribute" name="preparationAttributeText2" actualname="Text2" />
-    <field table="PreparationAttribute" name="preparationAttributeText3" actualname="Text3" />
-    <field table="PreparationAttribute" name="preparationAttributeText4" actualname="Text4" />
-    <field table="PreparationAttribute" name="preparationAttributeText5" actualname="Text5" />
-    <field table="PreparationAttribute" name="preparationAttributeText6" actualname="Text6" />
-    <field table="PreparationAttribute" name="preparationAttributeText7" actualname="Text7" />
-    <field table="PreparationAttribute" name="preparationAttributeText8" actualname="Text8" />
-    <field table="PreparationAttribute" name="preparationAttributeText9" actualname="Text9" />
-    <field table="PreparationAttribute" name="preparationAttributeText10" actualname="Text10" />
-    <field table="PreparationAttribute" name="preparationAttributeText11" actualname="Text11" />
-    <field table="PreparationAttribute" name="preparationAttributeText12" actualname="Text12" />
-    <field table="PreparationAttribute" name="preparationAttributeText13" actualname="Text13" />
-    <field table="PreparationAttribute" name="preparationAttributeText14" actualname="Text14" />
-    <field table="PreparationAttribute" name="preparationAttributeText15" actualname="Text15" />
-    <field table="PreparationAttribute" name="preparationAttributeText16" actualname="Text16" />
-    <field table="PreparationAttribute" name="preparationAttributeText17" actualname="Text17" />
-    <field table="PreparationAttribute" name="preparationAttributeText18" actualname="Text18" />
-    <field table="PreparationAttribute" name="preparationAttributeText19" actualname="Text19" />
-    <field table="PreparationAttribute" name="preparationAttributeText20" actualname="Text20" />
-    <field table="PreparationAttribute" name="preparationAttributeText21" actualname="Text21" />
-    <field table="PreparationAttribute" name="preparationAttributeYesNo1" actualname="YesNo1" />
-    <field table="PreparationAttribute" name="preparationAttributeYesNo2" actualname="YesNo2" />
-    <field table="PreparationAttribute" name="preparedDate" actualname="AttrDate" />
+    <field table="PreparationAttribute" name="preparationAttributeNumber1" actualname="Number1"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber2" actualname="Number2"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber3" actualname="Number3"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber4" actualname="Number4"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber5" actualname="Number5"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber6" actualname="Number6"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber7" actualname="Number7"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber8" actualname="Number8"/>
+    <field table="PreparationAttribute" name="preparationAttributeNumber9" actualname="Number9"/>
+    <field table="PreparationAttribute" name="preparationAttributeText1" actualname="Text1"/>
+    <field table="PreparationAttribute" name="preparationAttributeText2" actualname="Text2"/>
+    <field table="PreparationAttribute" name="preparationAttributeText3" actualname="Text3"/>
+    <field table="PreparationAttribute" name="preparationAttributeText4" actualname="Text4"/>
+    <field table="PreparationAttribute" name="preparationAttributeText5" actualname="Text5"/>
+    <field table="PreparationAttribute" name="preparationAttributeText6" actualname="Text6"/>
+    <field table="PreparationAttribute" name="preparationAttributeText7" actualname="Text7"/>
+    <field table="PreparationAttribute" name="preparationAttributeText8" actualname="Text8"/>
+    <field table="PreparationAttribute" name="preparationAttributeText9" actualname="Text9"/>
+    <field table="PreparationAttribute" name="preparationAttributeText10" actualname="Text10"/>
+    <field table="PreparationAttribute" name="preparationAttributeText11" actualname="Text11"/>
+    <field table="PreparationAttribute" name="preparationAttributeText12" actualname="Text12"/>
+    <field table="PreparationAttribute" name="preparationAttributeText13" actualname="Text13"/>
+    <field table="PreparationAttribute" name="preparationAttributeText14" actualname="Text14"/>
+    <field table="PreparationAttribute" name="preparationAttributeText15" actualname="Text15"/>
+    <field table="PreparationAttribute" name="preparationAttributeText16" actualname="Text16"/>
+    <field table="PreparationAttribute" name="preparationAttributeText17" actualname="Text17"/>
+    <field table="PreparationAttribute" name="preparationAttributeText18" actualname="Text18"/>
+    <field table="PreparationAttribute" name="preparationAttributeText19" actualname="Text19"/>
+    <field table="PreparationAttribute" name="preparationAttributeText20" actualname="Text20"/>
+    <field table="PreparationAttribute" name="preparationAttributeText21" actualname="Text21"/>
+    <field table="PreparationAttribute" name="preparationAttributeYesNo1" actualname="YesNo1"/>
+    <field table="PreparationAttribute" name="preparationAttributeYesNo2" actualname="YesNo2"/>
+    <field table="PreparationAttribute" name="preparedDate" actualname="AttrDate"/>
 
 	<!-- referencework -->
     <field table="ReferenceWork" name="authorFirstName1" onetomanysequence="0" sequencefield="orderNumber" actualtable="author" relationshipname="agent" relatedfieldname="firstName"/>
