@@ -1,0 +1,5 @@
+MfNMedia: http://coll.mfn-berlin.de/u/<reservedText>.html
+
+CatalogueOfLife1: http://www.catalogueoflife.org/col/browse/tree/id/<number1>
+
+CatalogueOfLife2: http://www.catalogueoflife.org/col/search/all/key/<parent>
