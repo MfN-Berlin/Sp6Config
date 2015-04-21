@@ -1,5 +1,7 @@
 MfNMedia: http://coll.mfn-berlin.de/u/<reservedText>.html
 
+WilsonReeder: http://www.departments.bucknell.edu/biology/resources/msw3/search.asp?s=<parent>
+
 CatalogueOfLife1: http://www.catalogueoflife.org/col/browse/tree/id/<number1>
 
 CatalogueOfLife2: http://www.catalogueoflife.org/col/search/all/key/<parent>

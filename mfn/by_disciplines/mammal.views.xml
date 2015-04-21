@@ -221,6 +221,10 @@
                     <cell type="field" id="mfn_remarks" name="remarks" uitype="textareabrief" rows="2" colspan="9" cols="50"/>
                 </row>
                 <row>
+                    <cell type="label" labelfor="mfn_link" label="media"/>
+                    <cell type="field" id="WebLink" name="this" uitype="plugin" initialize="name=WebLinkButton;weblink=MfNMedia;label=media"/>
+                </row>
+                <row>
                     <cell type="subview" viewname="OtherIdentifiers" id="mfn_otheridents" name="otherIdentifiers" colspan="12" rows="4" defaulttype="table" initialize="collapse=false;noscrollbars=true;bgcolor=210,206,198;border=line;bordercolor=130,130,130;"/>
                 </row>
                 <row>
@@ -1154,6 +1158,7 @@
                 <row>
                     <cell type="label" labelfor="parent"/>
                   	<cell type="field" id="parent"  uitype="querycbx" isrequired="true" colspan="3" initialize="name=Taxon;title=Taxon;editbtn=false;newbtn=false;editoncreate=true" name="parent"/>
+					<cell type="field" id="mfn_wilsonreaderlink" name="this" uitype="plugin" initialize="name=WebLinkButton;weblink=WilsonReeder;label=search parent in Wilson and Reeder"/>
                     <!-- <cell type="field" id="WebLink" name="this" uitype="plugin" initialize="name=WebLinkButton;weblink=FishBase;icon=FishBase"/> -->
                     <!-- <cell type="field" id="WebLink" name="this" uitype="plugin" initialize="name=WebLinkButton;url=http://www.ncbi.nlm.nih.gov/sites/gquery?term=$genusName$%20$speciesName$;label=NCBI"/> -->
                     <!-- <cell type="field" id="WebLink" name="this" uitype="plugin" initialize="name=WebLinkButton;url=[GBIF_Canada]?king=$kingdomName$AMPp_action=containingAMP;taxa=$genusName$%20$speciesName$AMPp_format=html;label=ITIS"/> -->
