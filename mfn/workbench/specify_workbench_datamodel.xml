@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
+
   <table classname="edu.ku.brc.specify.datamodel.Accession" table="accession" tableid="7" lazy="true">
     <field column="Status" name="status" type="java.lang.String" length="32"/>
     <field column="Type" name="type" type="java.lang.String" length="32"/>
@@ -210,6 +211,16 @@
 	<!-- mfn adaption begin -->
     <field column="Availability" name="availability" type="java.lang.String" length="32"/>
     <field column="Visibility" name="visibility" type="java.lang.Integer" length="4"/>
+
+    <field column="OwnerOfContainerName" name="ownerOfContainerName" type="java.lang.String" length="64"/>
+    <field column="OwnerOfContainerDescription" name="ownerOfContainerDescription" type="java.lang.String" length="255"/>
+    <field column="OwnerOfContainerType" name="ownerOfContainerType" type="java.lang.Integer"/>
+    <field column="OwnerOfContainerNumber" name="ownerOfContainerNumber" type="java.lang.Integer"/>
+
+    <field column="ChildOfContainerName" name="childOfContainerName" type="java.lang.String" length="64"/>
+    <field column="ChildOfContainerDescription" name="childOfContainerDescription" type="java.lang.String" length="255"/>
+    <field column="ChildOfContainerType" name="childOfContainerType" type="java.lang.Integer"/>
+    <field column="ChildOfContainerNumber" name="childOfContainerNumber" type="java.lang.Integer"/>
 	<!-- mfn adaption end -->
   </table>
   

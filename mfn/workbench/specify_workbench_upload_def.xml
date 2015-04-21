@@ -150,6 +150,16 @@
 	<!-- mfn adaption begin -->
 	<field table="CollectionObject" name="collectionObjectAvailability" actualname="Availability" />
 	<field table="CollectionObject" name="collectionObjectVisibility" actualname="Visibility" />
+
+    <field table="CollectionObject" name="ownerOfContainerName" onetomanysequence="0" relationshipname="container" relatedfieldname="Name"/>
+    <field table="CollectionObject" name="ownerOfContainerDescription" onetomanysequence="0" relationshipname="container" relatedfieldname="Description"/>
+    <field table="CollectionObject" name="ownerOfContainerType" onetomanysequence="0" relationshipname="container" relatedfieldname="Type"/>
+    <field table="CollectionObject" name="ownerOfContainerNumber" onetomanysequence="0" relationshipname="container" relatedfieldname="Number"/>
+
+    <field table="CollectionObject" name="childOfContainerName" onetomanysequence="0" relationshipname="containerOwner" relatedfieldname="Name"/>
+    <field table="CollectionObject" name="childOfContainerDescription" onetomanysequence="0" relationshipname="containerOwner" relatedfieldname="Description"/>
+    <field table="CollectionObject" name="childOfContainerType" onetomanysequence="0" relationshipname="containerOwner" relatedfieldname="Type"/>
+    <field table="CollectionObject" name="childOfContainerNumber" onetomanysequence="0" relationshipname="containerOwner" relatedfieldname="Number"/>
 	<!-- mfn adaption end -->
 
 	<!-- collectionobjectattribute -->
