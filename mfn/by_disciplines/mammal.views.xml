@@ -217,12 +217,16 @@
                     <cell type="field" id="mfn_accession" name="accession" uitype="querycbx" colspan="9" initialize="name=AccessionCO;title=AccessionCO" isrequired="false"/>
                 </row>
                 <row>
-                    <cell type="label" labelfor="mfn_remarks"/>
-                    <cell type="field" id="mfn_remarks" name="remarks" uitype="textareabrief" rows="2" colspan="9" cols="50"/>
+                    <cell type="label" labelfor="mfn_remarksintern"/>
+                    <cell type="field" id="mfn_remarksintern" name="remarks" uitype="textareabrief" rows="2" colspan="9" cols="50"/>
                 </row>
                 <row>
-                    <cell type="label" labelfor="mfn_link" label="media"/>
-                    <cell type="field" id="WebLink" name="this" uitype="plugin" initialize="name=WebLinkButton;weblink=MfNMedia;label=media"/>
+                    <cell type="label" labelfor="mfn_remarkspublic"/>
+                    <cell type="field" id="mfn_remarkspublic" name="text3" uitype="textareabrief" rows="2" colspan="9" cols="50"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="mfn_link" label="Media"/>
+                    <cell type="field" id="WebLink" name="this" uitype="plugin" initialize="name=WebLinkButton;weblink=MfNMedia;label=Media"/>
                 </row>
                 <row>
                     <cell type="subview" viewname="OtherIdentifiers" id="mfn_otheridents" name="otherIdentifiers" colspan="12" rows="4" defaulttype="table" initialize="collapse=false;noscrollbars=true;bgcolor=210,206,198;border=line;bordercolor=130,130,130;"/>
@@ -239,6 +243,9 @@
                 <row>
                     <cell type="subview" id="15" viewname="MammalogyAttributes" name="collectionObjectAttribute" colspan="12" initialize="bgcolor=205,205,207;border=line;bordercolor=9,102,255;"/>
                 </row>
+                <row>
+                    <cell type="subview" viewname="DNASequence" id="mfn_dnasequence" name="dnaSequences" initialize="btn=true"/>
+                </row>
                 <!-- mfn adaption end -->
 				<!-- mfn adaption begin (hide attachments)
                 <row>
@@ -248,11 +255,6 @@
                     <cell type="subview" id="attachments" viewname="ObjectAttachment" name="collectionObjectAttachments" colspan="5" initialize="icon=CollectionObjectAttachment" defaulttype="icon"/>
                 </row>
 				     mfn adaption end -->
-				<!-- mfn test begin 
-                <row>
-                    <cell type="subview" viewname="DNASequence" id="6" name="dnaSequences" initialize="btn=true"/>
-                </row>
-				     mfn test end -->
                 <row>
                     <cell type="separator" label="" colspan="12"/>
                 </row>
@@ -968,8 +970,9 @@
                 <row>
                     <cell type="label" labelfor="3"/>
                     <cell type="field" id="3" name="countAmt" uitype="text" default="1"/>
+                    <cell type="field" id="mfn_estimated" name="yesNo1" uitype="checkbox" />
                     <cell type="label" labelfor="2"/>
-                    <cell type="field" id="2" name="preparedByAgent" uitype="querycbx" colspan="8" initialize="name=Agent"/>
+                    <cell type="field" id="2" name="preparedByAgent" uitype="querycbx" colspan="6" initialize="name=Agent"/>
                 </row>
                 <row>
                     <cell type="label" labelfor="4"/>
@@ -1048,7 +1051,7 @@
                     <cell type="label" labelfor="mfn_availability"/>
                     <cell type="field" id="mfn_availability" name="text11" uitype="combobox" />
                     <cell type="label" labelfor="mfn_availabilitydate"/>
-                    <cell type="field" id="mfn_availabilitydate" name="attrDate" uitype="formattedtext" uifieldformatter="Date" />
+                    <cell type="field" id="mfn_availabilitydate" name="text3" uitype="formattedtext" uifieldformatter="text" />
                 </row>
             </rows>
         </viewdef>
