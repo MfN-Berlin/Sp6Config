@@ -1181,7 +1181,7 @@
     <field column="YesNo 2 (Stratigraphy)" name="stratigraphyYesNo2" type="boolean"/>
   </table>
   -->
-  
+  <!--
   <table classname="edu.ku.brc.specify.datamodel.Taxon" table="taxon" tableid="4">
     <field column="Kingdom" name="kingdom" type="java.lang.String" length="64"/>
     <field column="Kingdom Author" name="kingdomAuthor" type="java.lang.String" length="128"/>
@@ -1302,6 +1302,7 @@
     <field column="Subtribe CommonName" name="subtribeCommonName" type="java.lang.String" length="128"/>
     <field column="Subtribe Source" name="subtribeSource" type="java.lang.String" length="64"/>
     <field column="Subtribe GUID" name="subtribeGUID" type="java.lang.String" length="128"/>
+	-->
     <!--
     <field column="Genus" name="genus" type="java.lang.String" length="64"/>
     <field column="Subgenus" name="subgenus" type="java.lang.String" length="64"/>
@@ -1314,7 +1315,9 @@
     <field column="Forma" name="forma" type="java.lang.String" length="64"/>
     <field column="Subforma" name="subforma" type="java.lang.String" length="64"/>
     -->
+  <!--
   </table>
+  -->
   <table classname="edu.ku.brc.specify.datamodel.Taxon" table="taxononly" tableid="4000">
   
     <!-- for OU PBOT... -->
