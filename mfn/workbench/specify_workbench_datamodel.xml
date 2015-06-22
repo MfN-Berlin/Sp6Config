@@ -68,7 +68,7 @@
   <table classname="edu.ku.brc.specify.datamodel.CollectingEvent" table="collectingevent" tableid="10" lazy="true" >
     <field column="Station Field Number" name="stationFieldNumber" type="java.lang.String" length="50"/>
     <field column="Method" name="method" type="java.lang.String" length="50"/>
-    <field column="Verbatim Date" name="verbatimDate" type="java.lang.String" length="50"/>
+    <field column="Verbatim Date (Collecting Event)" name="collectingEventVerbatimDate" type="java.lang.String" length="50"/>
     <field column="Start Date" name="startDate" type="calendar_date"/>
     <field column="Start Date Precision" name="startDatePrecision" type="java.lang.Short"/>
     <field column="Start Date Verbatim" name="startDateVerbatim" type="java.lang.String" length="50"/>
@@ -210,7 +210,7 @@
     <field column="Cataloger Title" name="catalogerTitle" type="java.lang.String" length="50"/>
 	<!-- mfn adaption begin -->
     <field column="Availability" name="availability" type="java.lang.String" length="32"/>
-    <field column="Visibility" name="visibility" type="java.lang.Integer" length="4"/>
+    <field column="Visibility" name="visibility" type="java.lang.String" length="50"/>
 
     <field column="OwnerOfContainerName" name="ownerOfContainerName" type="java.lang.String" length="64"/>
     <field column="OwnerOfContainerDescription" name="ownerOfContainerDescription" type="java.lang.String" length="255"/>

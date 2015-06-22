@@ -79,6 +79,7 @@
     <field table="CollectingEvent" name="collectorMiddle8" onetomanysequence="7" sequencefield="orderNumber" actualtable="collector" relationshipname="agent" relatedfieldname="middleInitial"/>
     <field table="CollectingEvent" name="collectorTitle8" onetomanysequence="7" sequencefield="orderNumber" actualtable="collector" relationshipname="agent" relatedfieldname="title"/>
 	<field table="CollectingEvent" name="collectingEventRemarks" actualname="Remarks"/>
+	<field table="CollectingEvent" name="collectingEventVerbatimDate" actualname="VerbatimDate"/>
 
   	<!-- collectingeventattribute -->
     <field table="CollectingEventAttribute"  name="collectingEventAttributeRemarks" actualname="Remarks" />
