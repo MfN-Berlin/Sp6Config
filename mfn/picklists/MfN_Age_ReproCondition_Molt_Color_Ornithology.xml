@@ -1,25 +1,97 @@
 <list>
-  <picklist name="MfN_Bird_Age" type="0" tablename="none" readonly="true" sizelimit="0" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2013-05-21 12:00:00.0" version="1">
+  <picklist name="MfN_Bird_Age" type="0" tablename="none" readonly="true" sizelimit="0" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2015-06-10 13:34:37.0" version="3">
     <items>
-      <picklistitem title="2nd calendar year" value="2nd calendar year" ordinal="2" timestampCreated="2012-09-10 14:38:54.0" timestampModified="2012-09-10 14:38:54.0" version="0"/>
-      <picklistitem title="1st calendar year" value="1st calendar year" ordinal="1" timestampCreated="2012-09-10 14:38:21.0" timestampModified="2012-09-10 14:38:21.0" version="0"/>
-      <picklistitem title="hatchling" value="hatchling" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
-      <picklistitem title="egg" value="egg" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
-      <picklistitem title="5th calendar year" value="5th calendar year" ordinal="5" timestampCreated="2012-09-10 14:39:29.0" timestampModified="2012-09-10 14:39:29.0" version="0"/>
       <picklistitem title="adult" value="adult" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
-      <picklistitem title="juvenile" value="juvenile" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
-      <picklistitem title="No Data" value="No Data" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
-      <picklistitem title="3rd calendar year" value="3rd calendar year" ordinal="3" timestampCreated="2012-09-10 14:39:04.0" timestampModified="2012-09-10 14:39:04.0" version="0"/>
-      <picklistitem title="immature" value="immature" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
-      <picklistitem title="4th calendar year" value="4th calendar year" ordinal="4" timestampCreated="2012-09-10 14:39:15.0" timestampModified="2012-09-10 14:39:15.0" version="0"/>
-      <picklistitem title="6th calendar year" value="6th calendar year" ordinal="6" timestampCreated="2012-09-10 14:39:45.0" timestampModified="2012-09-10 14:39:45.0" version="0"/>
       <picklistitem title="pullus" value="pullus" ordinal="0" timestampCreated="2013-05-21 12:00:00.0" timestampModified="2013-05-21 12:00:00.0" version="0"/>
+      <picklistitem title="5th calendar year" value="5th calendar year" ordinal="5" timestampCreated="2012-09-10 14:39:29.0" timestampModified="2012-09-10 14:39:29.0" version="0"/>
+      <picklistitem title="juvenile" value="juvenile" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="embryo" value="embryo" ordinal="7" timestampCreated="2015-06-10 13:34:01.0" timestampModified="2015-06-10 13:34:01.0" version="0"/>
+      <picklistitem title="1st calendar year" value="1st calendar year" ordinal="1" timestampCreated="2012-09-10 14:38:21.0" timestampModified="2012-09-10 14:38:21.0" version="0"/>
+      <picklistitem title="6th calendar year" value="6th calendar year" ordinal="6" timestampCreated="2012-09-10 14:39:45.0" timestampModified="2012-09-10 14:39:45.0" version="0"/>
+      <picklistitem title="egg" value="egg" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="3rd calendar year" value="3rd calendar year" ordinal="3" timestampCreated="2012-09-10 14:39:04.0" timestampModified="2012-09-10 14:39:04.0" version="0"/>
+      <picklistitem title="No Data" value="No Data" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="hatchling" value="hatchling" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="2nd calendar year" value="2nd calendar year" ordinal="2" timestampCreated="2012-09-10 14:38:54.0" timestampModified="2012-09-10 14:38:54.0" version="0"/>
+      <picklistitem title="immature" value="immature" ordinal="0" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2011-10-28 17:36:58.0" version="0"/>
+      <picklistitem title="neonat" value="neonat" ordinal="8" timestampCreated="2015-06-10 13:34:37.0" timestampModified="2015-06-10 13:34:37.0" version="0"/>
+      <picklistitem title="4th calendar year" value="4th calendar year" ordinal="4" timestampCreated="2012-09-10 14:39:15.0" timestampModified="2012-09-10 14:39:15.0" version="0"/>
     </items>
   </picklist>
-  <picklist name="MfN_Bird_ReproCondition" type="0" tablename="none" readonly="true" sizelimit="0" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2012-09-10 14:39:45.0" version="1">
+  <picklist name="MfN_Bird_Color1" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
     <items>
-      <picklistitem title="active" value="active" ordinal="1" timestampCreated="2012-09-10 14:38:54.0" timestampModified="2012-09-10 14:38:54.0" version="0"/>
-      <picklistitem title="inactive" value="inactive" ordinal="2" timestampCreated="2012-09-10 14:38:21.0" timestampModified="2012-09-10 14:38:21.0" version="0"/>
+      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_Bird_Color2" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
+    <items>
+      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_Bird_Color3" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
+    <items>
+      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_Bird_Color4" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
+    <items>
+      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
     </items>
   </picklist>
   <picklist name="MfN_Bird_Molt" type="0" tablename="none" readonly="true" sizelimit="0" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2012-09-10 14:39:45.0" version="1">
@@ -28,80 +100,10 @@
       <picklistitem title="inactive" value="inactive" ordinal="2" timestampCreated="2012-09-10 14:38:21.0" timestampModified="2012-09-10 14:38:21.0" version="0"/>
     </items>
   </picklist>
-  <picklist name="MfN_Bird_Color1" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
+  <picklist name="MfN_Bird_ReproCondition" type="0" tablename="none" readonly="true" sizelimit="0" issystem="false" sort="1" timestampCreated="2011-10-28 17:36:58.0" timestampModified="2012-09-10 14:39:45.0" version="1">
     <items>
-      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-    </items>
-  </picklist>
-  <picklist name="MfN_Bird_Color2" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
-    <items>
-      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-    </items>
-  </picklist>
-  <picklist name="MfN_Bird_Color3" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
-    <items>
-      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-    </items>
-  </picklist>
-  <picklist name="MfN_Bird_Color4" type="0" tablename="none" readonly="false" sizelimit="100" issystem="false" sort="1" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="1">
-    <items>
-      <picklistitem title="amber" value="amber" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="black" value="black" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="blue" value="blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="brown" value="brown" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark blue" value="dark blue" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gray" value="gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="dark gray" value="dark gray" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="gold" value="gold" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="green" value="green" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="orange" value="orange" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="pink" value="pink" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="purple" value="purple" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="red" value="red" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="silver" value="silver" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
-      <picklistitem title="yellow" value="yellow" ordinal="0" timestampCreated="2013-04-30 15:00:00.0" timestampModified="2013-04-30 15:00:00.0" version="0"/>
+      <picklistitem title="inactive" value="inactive" ordinal="2" timestampCreated="2012-09-10 14:38:21.0" timestampModified="2012-09-10 14:38:21.0" version="0"/>
+      <picklistitem title="active" value="active" ordinal="1" timestampCreated="2012-09-10 14:38:54.0" timestampModified="2012-09-10 14:38:54.0" version="0"/>
     </items>
   </picklist>
 </list>
