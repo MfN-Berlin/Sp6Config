@@ -1066,9 +1066,23 @@
                 </row>
                 <row>
                 	<cell type="label" labelfor="33"/>
-                	<cell type="field" id="33" name="text3" uitype="text" colspan="10"/>
+                	<cell type="field" id="33" name="text3" uitype="combobox" colspan="10"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="7"/>
+                    <cell type="field" id="7" name="remarks" uitype="textareabrief" rows="2" colspan="10"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="AccessionAgent" id="8" name="accessionAgents" desc="Agents" defaulttype="table" colspan="13" rows="3"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="AccessionAuthorization" id="9" desc="Authorization" name="accessionAuthorizations" colspan="13"/>
+                </row>
+                <row> 
+                    <cell type="subview" viewname="AccessionItems" id="25" desc="Collection Object" name="collectionObjects" colspan="13" rows="2" initialize="addsearch=true"/>
                 </row>
                 <!-- mfn adaption end -->
+                <!-- mfn adaption begin
                 <row>
                     <cell type="label" labelfor="7"/>
                     <cell type="field" id="7" name="remarks" uitype="textareabrief" rows="2" colspan="10"/>
@@ -1082,7 +1096,6 @@
                 <row> 
                     <cell type="subview" viewname="AccessionItems" id="25" desc="Collection Object" name="collectionObjects" colspan="13" rows="2" initialize="addsearch=true"/>
                 </row>
-                <!-- mfn adaption begin
                 <row>
                     <cell type="separator" label="Attachments" colspan="13"/>
                 </row>
@@ -1214,9 +1227,20 @@
                 </row>
                 <row>
                 	<cell type="label" labelfor="33"/>
-                	<cell type="field" id="33" name="text3" uitype="text" colspan="10"/>
+                	<cell type="field" id="33" name="text3" uitype="combobox" colspan="10"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="7"/>
+                    <cell type="field" id="7" name="remarks" uitype="textareabrief" rows="2" colspan="10"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="AccessionAgent" id="8" name="accessionAgents" desc="Agents" defaulttype="table" colspan="13"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="AccessionAuthorization" id="9" desc="Authorization" name="accessionAuthorizations" colspan="13"/>
                 </row>
                 <!-- mfn adaption end -->
+                <!-- mfn adaption begin
                 <row>
                     <cell type="label" labelfor="7"/>
                     <cell type="field" id="7" name="remarks" uitype="textareabrief" rows="2" colspan="10"/>
@@ -1227,7 +1251,6 @@
                 <row>
                     <cell type="subview" viewname="AccessionAuthorization" id="9" desc="Authorization" name="accessionAuthorizations" colspan="13"/>
                 </row>
-                <!-- mfn adaption begin
                 <row>
                     <cell type="separator" label="Attachments" colspan="13"/>
                 </row>
@@ -1320,6 +1343,17 @@
             <rowDef auto="true" cell="p" sep="2px"/>
 
             <rows>
+                <!-- mfn adaption begin -->
+                <row>
+                    <cell type="label" labelfor="1"/>
+                    <cell type="field" id="1" name="permit" uitype="querycbx" initialize="name=Permit" colspan="2"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="2"/>
+                    <cell type="field" id="2" name="remarks" uitype="textareabrief" rows="2" colspan="2"/>
+                </row>
+                <!-- mfn adaption end -->
+                <!-- mfn adaption begin
                 <row>
                     <cell type="label" labelfor="1"/>
                     <cell type="field" id="1" name="permit" uitype="querycbx" initialize="name=Permit"/>
@@ -1328,6 +1362,7 @@
                     <cell type="label" labelfor="2"/>
                     <cell type="field" id="2" name="remarks" uitype="textareabrief" rows="2" colspan="2"/>
                 </row>
+                     mfn adaption end -->
                 <!--<row>
                     <cell type="label" labelfor="9"/>
                     <cell type="field" id="9" name="createdByAgent" uitype="label" readonly="true"  uifieldformatter="Agent"/>
