@@ -25,7 +25,10 @@
     <field table="Accession" name="Permit2" onetomanysequence="1" actualtable="accessionauthorization" relationshipname="permit" relatedfieldname="permitNumber"/>
     <field table="Accession" name="Permit3" onetomanysequence="2" actualtable="accessionauthorization" relationshipname="permit" relatedfieldname="permitNumber"/>
     <field table="Accession" name="Permit4" onetomanysequence="3" actualtable="accessionauthorization" relationshipname="permit" relatedfieldname="permitNumber"/>
-    <field table="Accession" name="number" actualname="accessionNumber"/>
+	<!-- mfn adaption begin -->
+    <!--<field table="Accession" name="number" actualname="accessionNumber"/>-->
+    <field table="Accession" name="accessionNumber" actualname="accessionNumber"/>
+	<!-- mfn adaption begin -->
     <field table="Accession" name="accessionText1" actualname="Text1"/>
     <field table="Accession" name="accessionText2" actualname="Text2"/>
     <field table="Accession" name="accessionText3" actualname="Text3"/>
@@ -34,6 +37,9 @@
     <field table="Accession" name="accessionRemarks" actualname="Remarks"/>
     <field table="Accession" name="accessionYesNo1" actualname="YesNo1"/>
     <field table="Accession" name="accessionYesNo2" actualname="YesNo2"/>
+	<!-- mfn adaption begin -->
+    <field table="Accession" name="accessionVerbatimDate" actualname="verbatimDate"/>
+	<!-- mfn adaption end -->
 
 
 	<!-- agent -->
@@ -481,6 +487,70 @@
     <field table="Determination" name="subformaAuthor3" onetomanysequence="2" treename="taxon" maptofield="author" rankid="270"/>
     <field table="Determination" name="typeStatusName3" actualname="typeStatusName" onetomanysequence="2" relationshipname="collectionObject"/>
 
+    <field table="Determination" name="determinedDate4" actualname="determinedDate" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="determinerLastName4" onetomanysequence="3" relationshipname="determiner" relatedfieldname="lastName"/>
+    <field table="Determination" name="determinerFirstName4" onetomanysequence="3" relationshipname="determiner" relatedfieldname="firstName"/>
+    <field table="Determination" name="determinerMiddle4" onetomanysequence="3" relationshipname="determiner" relatedfieldname="middleInitial"/>
+    <field table="Determination" name="determinerTitle4" onetomanysequence="3" relationshipname="determiner" relatedfieldname="title"/>
+    <field table="Determination" name="isCurrent4" actualname="isCurrent" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="remarks4" actualname="remarks" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="text14" actualname="text1" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="text24" actualname="text2" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="number14" actualname="number1" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="number24" actualname="number2" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="confidence4" actualname="confidence" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="method4" actualname="method" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="qualifier4" actualname="qualifier" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="subspQualifier4" actualname="subspQualifier" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="varQualifier4" actualname="varQualifier" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="featureOrBasis4" actualname="featureOrBasis" onetomanysequence="3" relationshipname="collectionObject"/>
+    <field table="Determination" name="phylum4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="30"/>
+    <field table="Determination" name="subphylum4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="40"/>
+    <field table="Determination" name="superclass4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="50"/>
+    <field table="Determination" name="class4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="60"/>
+    <field table="Determination" name="subclass4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="70"/>
+    <field table="Determination" name="infraclass4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="80"/>
+    <field table="Determination" name="superorder4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="90"/>
+    <field table="Determination" name="order4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="100"/>
+    <field table="Determination" name="suborder4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="110"/>
+    <field table="Determination" name="infraorder4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="120"/>
+    <field table="Determination" name="superfamily4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="130"/>
+    <field table="Determination" name="family4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="140"/>
+    <field table="Determination" name="subfamily4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="150"/>
+    <field table="Determination" name="tribe4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="160"/>
+    <field table="Determination" name="subtribe4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="170"/>
+    <field table="Determination" name="genus4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="180"/>
+    <field table="Determination" name="subgenus4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="190"/>
+    <field table="Determination" name="species4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="220"/>
+    <field table="Determination" name="subspecies4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="230"/>
+    <field table="Determination" name="variety4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="240"/>
+    <field table="Determination" name="subvariety4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="250"/>
+    <field table="Determination" name="forma4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="260"/>
+    <field table="Determination" name="subforma4" onetomanysequence="3" treename="taxon" maptofield="name" rankid="270"/>
+    <field table="Determination" name="phylumAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="30"/>
+    <field table="Determination" name="subphylumAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="40"/>
+    <field table="Determination" name="superclassAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="50"/>
+    <field table="Determination" name="classAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="60"/>
+    <field table="Determination" name="subclassAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="70"/>
+    <field table="Determination" name="infraclassAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="80"/>
+    <field table="Determination" name="superorderAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="90"/>
+    <field table="Determination" name="orderAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="100"/>
+    <field table="Determination" name="suborderAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="110"/>
+    <field table="Determination" name="infraorderAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="120"/>
+    <field table="Determination" name="superfamilyAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="130"/>
+    <field table="Determination" name="familyAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="140"/>
+    <field table="Determination" name="subfamilyAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="150"/>
+    <field table="Determination" name="tribeAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="160"/>
+    <field table="Determination" name="subtribeAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="170"/>
+    <field table="Determination" name="genusAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="180"/>
+    <field table="Determination" name="subgenusAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="190"/>
+    <field table="Determination" name="speciesAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="220"/>
+    <field table="Determination" name="subspeciesAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="230"/>
+    <field table="Determination" name="varietyAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="240"/>
+    <field table="Determination" name="subvarietyAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="250"/>
+    <field table="Determination" name="formaAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="260"/>
+    <field table="Determination" name="subformaAuthor4" onetomanysequence="3" treename="taxon" maptofield="author" rankid="270"/>
+    <field table="Determination" name="typeStatusName4" actualname="typeStatusName" onetomanysequence="3" relationshipname="collectionObject"/>
 
 
 

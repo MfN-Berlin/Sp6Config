@@ -4,8 +4,12 @@
   <table classname="edu.ku.brc.specify.datamodel.Accession" table="accession" tableid="7" lazy="true">
     <field column="Status" name="status" type="java.lang.String" length="32"/>
     <field column="Type" name="type" type="java.lang.String" length="32"/>
-    <field column="Number" name="number" type="java.lang.String" length="60"/>
-    <field column="Verbatim Date" name="verbatimDate" type="java.lang.String" length="50"/>
+	<!-- mfn adaption begin -->
+    <!--<field column="Number" name="number" type="java.lang.String" length="60"/>
+    <field column="Verbatim Date" name="verbatimDate" type="java.lang.String" length="50"/>-->
+    <field column="Accession Number" name="accessionNumber" type="java.lang.String" length="60"/>
+    <field column="Verbatim Date (Accession)" name="accessionVerbatimDate" type="java.lang.String" length="50"/>
+	<!-- mfn adaption end -->
     <field column="Date Accessioned" name="dateAccessioned" type="calendar_date"/>
     <field column="Date Received" name="dateReceived" type="calendar_date"/>
     <field column="Accession Text 1" name="accessionText1" type="text" length="300"/>
@@ -576,6 +580,71 @@
     <field column="Subvariety Author 3" 		name="subvarietyAuthor3" type="java.lang.String" length="128"/>
     <field column="Forma Author 3" 			    name="formaAuthor3" type="java.lang.String" length="128"/>
     <field column="Subforma Author 3" 			name="subformaAuthor3" type="java.lang.String" length="128"/>
+
+    <field column="Determined Date 4"       		name="determinedDate4" type="calendar_date"/>
+    <field column="Determiner Last Name 4"  		name="determinerLastName4" type="java.lang.String" length="120"/>
+    <field column="Determiner First Name 4" 		name="determinerFirstName4" type="java.lang.String" length="50"/>
+    <field column="Determiner Middle Initials 4"  	name="determinerMiddle4" type="java.lang.String" length="50"/>
+    <field column="Determiner Title 4" 				name="determinerTitle4" type="java.lang.String" length="50"/>
+    <field column="Determination Remarks 4" 		name="remarks4" type="text" length="4096" />
+    <field column="Text1 4" 						name="text14" type="text" length="300"/>
+    <field column="Text2 4" 						name="text24" type="text" length="300"/>
+    <field column="Number1 4" 						name="number14" type="java.lang.Float" length="24"/>
+    <field column="Number2 4" 						name="number24" type="java.lang.Float" length="24"/>
+    <field column="Confidence 4" 					name="confidence4" type="text" length="50"/>
+    <field column="Method 4" 						name="method4" type="text" length="50"/>
+    <field column="Qualifier 4" 					name="qualifier4" type="text" length="16" />
+    <field column="Subsp Qualifier 4" 				name="subspQualifier4" type="text" length="16" />
+    <field column="Var Qualifier 4" 				name="varQualifier4" type="text" length="16" />
+    <field column="Feature or Basis 4" 				name="featureOrBasis4" type="text" length="50" />
+    <field column="Type Status Name 4"          	name="typeStatusName4" type="java.lang.String" length="50"/>
+    <field column="Is Current (Yes/No) 4"       	name="isCurrent4" type="boolean"/>
+    <field column="Phylum 4"                 		name="phylum4" type="java.lang.String" length="64"/>
+    <field column="Subphylum 4"                 	name="subphylum4" type="java.lang.String" length="64"/>
+    <field column="Superclass 4"                	name="superclass4" type="java.lang.String" length="64"/>
+    <field column="Class 4"                 		name="class4" type="java.lang.String" length="64"/>
+    <field column="Subclass 4"                 		name="subclass4" type="java.lang.String" length="64"/>
+    <field column="Infraclass 4"                	name="infraclass4" type="java.lang.String" length="64"/>
+    <field column="Superorder 4"                	name="superorder4" type="java.lang.String" length="64"/>
+    <field column="Order 4"                 		name="order4" type="java.lang.String" length="64"/>
+    <field column="Suborder 4"                 		name="suborder4" type="java.lang.String" length="64"/>
+    <field column="Infraorder 4"                	name="infraorder4" type="java.lang.String" length="64"/>
+    <field column="Superfamily 4"               	name="superfamily4" type="java.lang.String" length="64"/>
+    <field column="Family 4"                 		name="family4" type="java.lang.String" length="64"/>
+    <field column="Subfamily 4"                 	name="subfamily4" type="java.lang.String" length="64"/>
+    <field column="Tribe 4"                 		name="tribe4" type="java.lang.String" length="64"/>
+    <field column="Subtribe 4"                 		name="subtribe4" type="java.lang.String" length="64"/>
+    <field column="Genus 4"                 		name="genus4" type="java.lang.String" length="64"/>
+    <field column="Subgenus 4"                 		name="subgenus4" type="java.lang.String" length="64"/>
+    <field column="Species 4"             		 	name="species4" type="java.lang.String" length="64"/>
+    <field column="Subspecies 4"            		name="subspecies4" type="java.lang.String" length="64"/>
+    <field column="Variety 4"               		name="variety4" type="java.lang.String" length="64"/>
+    <field column="Subvariety 4"               		name="subvariety4" type="java.lang.String" length="64"/>
+    <field column="Forma 4"               			name="forma4" type="java.lang.String" length="64"/>
+    <field column="SubForma 4"               		name="subforma4" type="java.lang.String" length="64"/>
+    <field column="Phylum Author 4" 				name="phylumAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subphylum Author 4" 				name="subphylumAuthor4" type="java.lang.String" length="128"/>
+    <field column="Superclass Author 4" 			name="superclassAuthor4" type="java.lang.String" length="128"/>
+    <field column="Class Author 4" 			    	name="classAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subclass Author 4" 				name="subclassAuthor4" type="java.lang.String" length="128"/>
+    <field column="Infraclass Author 4" 			name="infraclassAuthor4" type="java.lang.String" length="128"/>
+    <field column="Superorder Author 4" 			name="superorderAuthor4" type="java.lang.String" length="128"/>
+    <field column="Order Author 4" 			    	name="orderAuthor4" type="java.lang.String" length="128"/>
+    <field column="Suborder Author 4" 				name="suborderAuthor4" type="java.lang.String" length="128"/>
+    <field column="Infraorder Author 4" 			name="infraorderAuthor4" type="java.lang.String" length="128"/>
+    <field column="Superfamily Author 4" 			name="superfamilyAuthor4" type="java.lang.String" length="128"/>
+    <field column="Family Author 4" 				name="familyAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subfamily Author 4" 				name="subfamilyAuthor4" type="java.lang.String" length="128"/>
+    <field column="Tribe Author 4" 			    	name="tribeAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subtribe Author 4" 				name="subtribeAuthor4" type="java.lang.String" length="128"/>
+    <field column="Genus Author 4" 					name="genusAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subgenus Author 4" 				name="subgenusAuthor4" type="java.lang.String" length="128"/>
+    <field column="Species Author 4" 				name="speciesAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subspecies Author 4" 			name="subspeciesAuthor4" type="java.lang.String" length="128"/>
+    <field column="Variety Author 4" 				name="varietyAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subvariety Author 4" 			name="subvarietyAuthor4" type="java.lang.String" length="128"/>
+    <field column="Forma Author 4" 			    	name="formaAuthor4" type="java.lang.String" length="128"/>
+    <field column="Subforma Author 4" 				name="subformaAuthor4" type="java.lang.String" length="128"/>
 
 
 
