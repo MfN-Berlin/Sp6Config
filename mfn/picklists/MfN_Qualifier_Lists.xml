@@ -1,0 +1,21 @@
+<list>
+  <picklist name="MfN_Qualifier" type="0" tablename="none" readonly="false" sizelimit="50" issystem="false" sort="1" timestampCreated="2015-07-07 12:12:21.0" timestampModified="2015-07-07 12:16:45.0" version="4">
+    <items>
+      <picklistitem title="aff." value="aff." ordinal="1" timestampCreated="2015-07-07 12:12:46.0" timestampModified="2015-07-07 12:12:46.0" version="0"/>
+      <picklistitem title="?" value="?" ordinal="2" timestampCreated="2015-07-07 12:13:39.0" timestampModified="2015-07-07 12:13:39.0" version="0"/>
+      <picklistitem title="cf." value="cf." ordinal="0" timestampCreated="2015-07-07 12:12:21.0" timestampModified="2015-07-07 12:12:21.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_SubspeciesQualifier" type="0" tablename="none" readonly="false" sizelimit="50" issystem="false" sort="1" timestampCreated="2015-07-07 12:15:15.0" timestampModified="2015-07-07 12:15:15.0" version="1">
+    <items>
+      <picklistitem title="?" value="?" ordinal="0" timestampCreated="2015-07-07 12:14:57.0" timestampModified="2015-07-07 12:14:57.0" version="0"/>
+      <picklistitem title="aff." value="aff." ordinal="1" timestampCreated="2015-07-07 12:15:01.0" timestampModified="2015-07-07 12:15:01.0" version="0"/>
+      <picklistitem title="cf." value="cf." ordinal="2" timestampCreated="2015-07-07 12:15:15.0" timestampModified="2015-07-07 12:15:15.0" version="0"/>
+    </items>
+  </picklist>
+  <picklist name="MfN_VariationQualifier" type="0" tablename="none" readonly="false" sizelimit="50" issystem="false" sort="1" timestampCreated="2015-07-07 12:16:05.0" timestampModified="2015-07-07 12:16:05.0" version="1">
+    <items>
+      <picklistitem title="?" value="?" ordinal="0" timestampCreated="2015-07-07 12:16:05.0" timestampModified="2015-07-07 12:16:05.0" version="0"/>
+    </items>
+  </picklist>
+</list>
