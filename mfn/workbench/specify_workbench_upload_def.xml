@@ -156,7 +156,7 @@
     <field table="CollectionObject" name="citationCORemarks2" onetomanysequence="1" actualtable="collectionobjectcitation" actualname="remarks" relationshipname="collectionObject"/>
 	<!-- mfn adaption begin -->
 	<field table="CollectionObject" name="collectionObjectAvailability" actualname="Availability" />
-	<field table="CollectionObject" name="collectionObjectVisibility" actualname="Visibility" />
+	<field table="CollectionObject" name="collectionObjectVisibility" actualname="Integer1" />
 
     <field table="CollectionObject" name="ownerOfContainerName" onetomanysequence="0" relationshipname="container" relatedfieldname="Name"/>
     <field table="CollectionObject" name="ownerOfContainerDescription" onetomanysequence="0" relationshipname="container" relatedfieldname="Description"/>
@@ -711,6 +711,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr1Text8" onetomanysequence="0" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr1Text9" onetomanysequence="0" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr1Text11" onetomanysequence="0" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate2" actualname="preparedDate" onetomanysequence="1" relationshipname="collectionObject"/>
@@ -742,6 +743,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr2Text8" onetomanysequence="1" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr2Text9" onetomanysequence="1" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr2Text11" onetomanysequence="1" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate3" actualname="preparedDate" onetomanysequence="2" relationshipname="collectionObject"/>
@@ -773,6 +775,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr3Text8" onetomanysequence="2" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr3Text9" onetomanysequence="2" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr3Text11" onetomanysequence="2" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate4" actualname="preparedDate" onetomanysequence="3" relationshipname="collectionObject"/>
@@ -804,6 +807,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr4Text8" onetomanysequence="3" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr4Text9" onetomanysequence="3" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr4Text11" onetomanysequence="3" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
 
     <field table="Preparation" name="preparedDate5" actualname="preparedDate" onetomanysequence="4" relationshipname="collectionObject"/>
@@ -835,6 +839,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr5Text8" onetomanysequence="4" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr5Text9" onetomanysequence="4" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr5Text11" onetomanysequence="4" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate6" actualname="preparedDate" onetomanysequence="5" relationshipname="collectionObject"/>
@@ -866,6 +871,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr6Text8" onetomanysequence="5" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr6Text9" onetomanysequence="5" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr6Text11" onetomanysequence="5" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate7" actualname="preparedDate" onetomanysequence="6" relationshipname="collectionObject"/>
@@ -897,6 +903,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr7Text8" onetomanysequence="6" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr7Text9" onetomanysequence="6" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr7Text11" onetomanysequence="6" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
     
     <field table="Preparation" name="preparedDate8" actualname="preparedDate" onetomanysequence="7" relationshipname="collectionObject"/>
@@ -928,6 +935,7 @@
     <!-- mfn adaption begin -->
     <field table="Preparation" name="prepAttr8Text8" onetomanysequence="7" relationshipname="preparationAttribute" relatedfieldname="Text8"/>
     <field table="Preparation" name="prepAttr8Text9" onetomanysequence="7" relationshipname="preparationAttribute" relatedfieldname="Text9"/>
+    <field table="Preparation" name="prepAttr8Text11" onetomanysequence="7" relationshipname="preparationAttribute" relatedfieldname="Text11"/>
     <!-- mfn adaption end -->
 
 	<!-- preparationattributes -->

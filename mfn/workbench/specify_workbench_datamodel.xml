@@ -213,8 +213,8 @@
     <field column="Cataloger Middle Initials" name="catalogerMiddle" type="java.lang.String" length="50"/>
     <field column="Cataloger Title" name="catalogerTitle" type="java.lang.String" length="50"/>
 	<!-- mfn adaption begin -->
-    <field column="Availability" name="availability" type="java.lang.String" length="32"/>
-    <field column="Visibility" name="visibility" type="java.lang.String" length="50"/>
+    <field column="Availability" name="collectionObjectAvailability" type="java.lang.String" length="32"/>
+    <field column="Visibility" name="collectionObjectVisibility" type="java.lang.String" length="50"/>
 
     <field column="OwnerOfContainerName" name="ownerOfContainerName" type="java.lang.String" length="64"/>
     <field column="OwnerOfContainerDescription" name="ownerOfContainerDescription" type="java.lang.String" length="255"/>
@@ -883,6 +883,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 1" name="prepAttr1Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 1" name="prepAttr1Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 1" name="prepAttr1Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
 
     <!--
@@ -919,6 +920,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 2" name="prepAttr2Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 2" name="prepAttr2Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 2" name="prepAttr2Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
 
     <!--
@@ -955,6 +957,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 3" name="prepAttr3Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 3" name="prepAttr3Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 3" name="prepAttr3Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
     
     <field column="Prepared Date 4" name="preparedDate4" type="calendar_date"/>
@@ -986,6 +989,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 4" name="prepAttr4Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 4" name="prepAttr4Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 4" name="prepAttr4Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
     
     <field column="Prepared Date 5" name="preparedDate5" type="calendar_date"/>
@@ -1017,6 +1021,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 5" name="prepAttr5Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 5" name="prepAttr5Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 5" name="prepAttr5Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
     
     <field column="Prepared Date 6" name="preparedDate6" type="calendar_date"/>
@@ -1048,6 +1053,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 6" name="prepAttr6Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 6" name="prepAttr6Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 6" name="prepAttr6Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
     
     <field column="Prepared Date 7" name="preparedDate7" type="calendar_date"/>
@@ -1079,6 +1085,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 7" name="prepAttr7Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 7" name="prepAttr7Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 7" name="prepAttr7Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
     
     <field column="Prepared Date 8" name="preparedDate8" type="calendar_date"/>
@@ -1110,6 +1117,7 @@
 	<!-- mfn adaption begin -->
     <field column="Prep Attr Stage 8" name="prepAttr8Text8" type="java.lang.String" length="50"/>
     <field column="Prep Attr Sex 8" name="prepAttr8Text9" type="java.lang.String" length="50"/>
+    <field column="Prep Attr Availability 8" name="prepAttr8Text11" type="java.lang.String" length="50"/>
 	<!-- mfn adaption end -->
   </table>
   
