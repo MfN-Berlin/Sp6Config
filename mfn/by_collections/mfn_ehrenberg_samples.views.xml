@@ -121,33 +121,25 @@
 				-->
                 <row>
                     <cell type="label" labelfor="1"/>
-                    <cell type="field" id="1" name="catalogNumber" uitype="formattedtext"/>
-                    <cell type="label" labelfor="mfn_gin"/>
-                    <cell type="field" id="mfn_gin" name="reservedText" uitype="text"/>
-					<!-- mfn adaption begin 
+                    <cell type="field" id="1" name="catalogNumber" uitype="formattedtext" />
+                    <cell type="label" labelfor="mfn_guid"/>
+                    <cell type="field" id="mfn_guid" name="reservedText" readonly="true" uitype="text"/>
                     <cell type="label" labelfor="14"/>
                     <cell type="field" id="14" name="altCatalogNumber" readonly="true" uitype="text"/>
-					     mfn adaption end -->
                 </row>
                 <row>
                     <cell type="label" labelfor="4"/>
                     <cell type="field" id="4" name="cataloger" uitype="querycbx" initialize="name=Agent;title=Catalog Agent" isrequired="true"/>
                     <cell type="label" labelfor="5"/>
-				<!-- mfn adaption begin -->
                     <cell type="field" id="5" uitype="plugin" name="this" initialize="name=PartialDateUI;df=catalogedDate;tp=catalogedDatePrecision" uifieldformatter="Date" default="today" />
-                <!--<cell type="field" id="5" uitype="plugin" name="this" initialize="name=PartialDateUI;df=catalogedDate;tp=catalogedDatePrecision" uifieldformatter="Date"/>-->
-				<!-- mfn adaption end -->
-                    <cell type="label" labelfor="2"/>
-				<!-- mfn adaption begin 
-                    <cell type="field" id="2" name="projectNumber" uitype="text"/>
-				     mfn adaption end -->
+					<cell type="label" labelfor="mfn_projects"/>
+					<cell type="subview" viewname="Project" id="mfn_projects" name="projects" initialize="btn=true"/>
                 </row>
-				<!-- mfn adaption begin -->
                 <row>
                     <cell type="label" labelfor="1002"/>
                     <cell type="field" id="1002" name="description" uitype="combobox" default="Preserved specimen" />
-                    <cell type="label" labelfor="1004"/>
-                    <cell type="field" id="1004" name="visibility" uitype="combobox" default="0" />
+                    <cell type="label" labelfor="mfn_visibility"/>
+                    <cell type="field" id="mfn_visibility" name="integer1" uitype="combobox" default="0" />
                     <cell type="label" labelfor="1003"/>
                     <cell type="field" id="1003" name="availability" uitype="combobox" default="available" />
                 </row>
